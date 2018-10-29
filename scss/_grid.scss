@@ -1,0 +1,12 @@
+@for $i from 1 through 24 {
+	.c-#{$i} {
+		width: $i * 100% / 24;
+  }
+}
+
+@for $i from 1 through 23 {
+	.offset-#{$i}{
+    margin-left: $i * 100% / 24;
+  }
+}
+
