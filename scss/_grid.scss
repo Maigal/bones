@@ -1,12 +1,14 @@
 @for $i from 1 through 24 {
-	.c-#{$i} {
+  $mul: $i * 5;
+	.c-#{$mul} {
 		width: $i * 100% / 24;
   }
 }
 
 @for $i from 1 through 23 {
-	.offset-#{$i}{
-    margin-left: $i * 100% / 24;
+	$mul: $i * 5;
+	.c-offset-#{$mul} {
+		margin-left: $i * 100% / 24;
   }
 }
 

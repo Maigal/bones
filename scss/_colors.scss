@@ -45,10 +45,10 @@ $baseColors: (
   @return $colors;
 }
 @each $color, $value in colorMap($baseColors) {
-  .text_#{$color} {
+  .text-#{$color} {
     color: $value;
   }
-  .bg_#{$color} {
+  .bg-#{$color} {
     background-color: $value;
   }
 }

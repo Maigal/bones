@@ -1,0 +1,58 @@
+$spacings: (0, 5, 10, 15, 20, 25, 30, 35, 40, 45, 50, 75, 100);
+
+// Margins & Paddings
+
+@each $space in $spacings {
+
+  // Margin
+
+  .m-#{$space}{
+    margin: #{$space}px;
+  }
+  .my-#{$space}{
+    margin-top: #{$space}px;
+    margin-bottom: #{$space}px;
+  }
+  .mx-#{$space}{
+    margin-right: #{$space}px;
+    margin-left: #{$space}px;
+  }
+  .mt-#{$space}{
+    margin-top: #{$space}px;
+  }
+  .mr-#{$space}{
+    margin-right: #{$space}px;
+  }
+  .mb-#{$space}{
+    margin-bottom: #{$space}px;
+  }
+  .ml-#{$space}{
+    margin-left: #{$space}px;
+  }
+
+  // Padding
+
+  .p-#{$space}{
+    padding: #{$space}px;
+  }
+  .py-#{$space}{
+    padding-top: #{$space}px;
+    padding-bottom: #{$space}px;
+  }
+  .px-#{$space}{
+    padding-right: #{$space}px;
+    padding-left: #{$space}px;
+  }
+  .pt-#{$space}{
+    padding-top: #{$space}px;
+  }
+  .pr-#{$space}{
+    padding-right: #{$space}px;
+  }
+  .pb-#{$space}{
+    padding-bottom: #{$space}px;
+  }
+  .pl-#{$space}{
+    padding-left: #{$space}px;
+  }
+}
