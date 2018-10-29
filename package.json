@@ -1,0 +1,26 @@
+{
+  "name": "bones-css",
+  "version": "1.0.0",
+  "description": "CSS library based on flexbox and helper classes",
+  "main": "bones.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Maigal/bones.git"
+  },
+  "keywords": [
+    "css",
+    "framework",
+    "responsive",
+    "helpers",
+    "bones"
+  ],
+  "author": "Matias Almeida",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Maigal/bones/issues"
+  },
+  "homepage": "https://github.com/Maigal/bones#readme"
+}
