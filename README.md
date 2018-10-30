@@ -1,3 +1,3 @@
 # bones
 
-Flexbox based CSS Library based on helper classes
+CSS Library based on helper classes
