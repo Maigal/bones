@@ -1,3 +1,3 @@
 # bones
 
-CSS Library based on helper classes
+CSS Library based on helper classes.
